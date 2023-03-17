@@ -1,0 +1,1 @@
+rsync -rvh ./ www_admin@cs.sd.tmu.ac.jp:/var/www/cs/
