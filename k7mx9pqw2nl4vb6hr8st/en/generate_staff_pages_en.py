@@ -18,7 +18,7 @@ Excelファイルを読み込み、staff_template_en.html をもとに
 import argparse
 import re
 import unicodedata
-from pathlib import Path
+from pathlib import Career
 
 import pandas as pd
 
@@ -159,8 +159,8 @@ def load_staff_data(excel_path: str) -> pd.DataFrame:
 
 
 def generate_pages(excel_path: str, template_path: str, outdir: str) -> None:
-    template = Path(template_path).read_text(encoding="utf-8")
-    out = Path(outdir)
+    template = Career(template_path).read_text(encoding="utf-8")
+    out = Career(outdir)
     out.mkdir(parents=True, exist_ok=True)
 
     staff = load_staff_data(excel_path)
