@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nobutaka Ono Laboratory | Department of Computer Science</title>
+<meta name="viewport" content="width=device-width,maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> 
+<script src="js/script.js"></script>
+<link href="css/style.css" rel="stylesheet" media="all">
+<link href="css/slidebars.css" rel="stylesheet" media="all">
+<link rel="icon" href="favicon.ico">
+</head>
+<body>
+<div id="sb-site">
+  <div id="toggle">
+    <ul>
+      <li class="sb-toggle-left"><span class="css-bar"></span></li>
+    </ul>
+    <p>MENU</p>
+  </div>
+  <header id="header">
+    <div id="header_link_wrapper">
+      <div id="header_link"><a href="../staff_ono.html"><img src="image/lang.png" alt="JP/EN"></a></div>
+    </div>
+    <h1 class="en"><a href="index.html"><img src="image/etoptitle.jpg" alt="Department of Computer Science"></a></h1>
+  </header>
+  <nav>
+    <ul id="menu">
+      <li class="nav0"><a href="index.html">&nbsp;</a></li>
+      <li class="nav1"><a href="whats.html">What's CS?</a></li>
+      <li class="nav2"><a href="faculties.html">Faculties</a></li>
+      <li class="nav3"><a href="courses.html">Courses</a></li>
+      <li class="nav4"><a href="admissions.html">Admissions</a></li>
+      <li class="nav6"><a href="faq.html">FAQ</a></li>
+      <li class="nav7"><a href="access.html">Access</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1 class="nav2">Nobutaka Ono Laboratory</h1>
+    <section>
+      <h2 class="mt0">Professor Nobutaka Ono</h2>
+      <div class="lab">
+        <figure><img src="image/ono_prof.jpg" alt="Professor Nobutaka Ono"></figure>
+        <div>
+          <p class="mt20 mt05sp"><strong>Microphone Array / Source Separation / Acoustic Scene Recognition / Time-Frequency Analysis / Acoustic Signal Processing</strong></p>
+          <p class="mt20 mt05sp">Sound is an important media containing a variety of information, and in everyday life, we communicate with speech, enjoy music, and perceive various situations around us through sound. Aiming to realize the advanced acoustic information processing similar to or exceeding that of humans, Ono Laboratory is working on signal processing and information processing for sounds such as speech and music. Some specific research topics are as follows.</p>
+          <ul>
+            <li><a href="http://www.comp.sd.tmu.ac.jp/onolab/index-e.html" target="_blank">Laboratory website</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <h3>Blind Source Separation</h3>
+      <p>In the real environment, various sounds can be heard as a mixture. But for example, speech recognition does not work well if noise or multiple speech are overlapped. Blind source separation is a technique to separate such mixed sounds into individual sound sources without prior information. The conventional methods need many computations, but Ono lab developed the world's fastest algorithm called auxiliary function based independent vector analysis (AuxIVA) in 2011, and implemented it as an iPhone application to prove its high speed.</p>
+      <figure class="movie center w70">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/lLMbflDMMeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </figure>
+      <p>In recent years, aiming at hearing aid applications, we are working on developing low-latency algorithms and real-time implementations.</p>
+      <figure class="center w70"><img src="image/ono_01.jpg" alt="">
+        <figcaption>Fast blind source separation on iPhone</figcaption>
+      </figure>
+      <h3>Asynchronous Distributed Microphone Array</h3>
+      <p>A system that acquires and processes spatial information of sound using multiple microphones is called a microphone array. In a microphone array, a minute time difference between multiple microphone signals (for example, about 0.1 ms) is an important cue for sound source localization and sound source separation, so it was necessary for multiple microphones to record the sound synchronously. On the other hand, there are many devices with recording functions around us (PCs, smartphones, etc). We are studying new signal processing techniques for array signal processing on such non-synchronized recording devices. For example, we aim an application such that, if meeting participants record the conversation with their smartphones and upload them to the cloud after the meeting, the signals are automatically synchronized, the sound sources are separated, each speech is recognized, and the meeting minutes are sent by e-mail.</p>
+      <figure class="movie center w70">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3cJHFkY1pWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </figure>
+      <h3>Acoustic Sensing Based on Sound-Light Conversion and Video Camera</h3>
+      <p>We are starting to study new acoustic sensing based on special sensor nodes that illuminate LEDs according to the sound intensity, and a video camera. In this framework, the video camera works as a super multi-channel acoustic device. Sound spectrum information cannot be obtained, but instead, a wide range of spatial information can be acquired at once. Because security cameras, surveillance cameras, etc. can be used, this sensing will be widely applicable for sound environment recognition and abnormality detection. We have already developed an inexpensive and small device with a battery that can work alone.</p>
+      <p class="right"><a href="faculties.html">Back to previous page</a></p>
+    </section>
+  </main>
+  <div id="banner_frame">
+    <ul id="banner">
+      <li><a href="https://www.tmu.ac.jp/english/index.html" target="_blank"><img src="image/ebn1.jpg" alt="Tokyo Metropolitan University"></a></li>
+      <li><a href="https://www.sd.tmu.ac.jp/english/index.html" target="_blank"><img src="image/ebn2.jpg" alt="Faculty of Systems Design / Graduate School of Systems Design"></a></li>
+      <li><a href="admissions.html"><img src="image/ebn3.jpg" alt="Entrance"></a></li>
+      <li><a href="faq.html"><img src="image/bn4.jpg" alt="Q&amp;A"></a></li>
+    </ul>
+  </div>
+  <footer>
+    <div id="address_frame">
+      <div id="address_img"><a href="index.html"><img src="image/efooter.jpg" alt="Faculty of Systems Design / Graduate School of Systems Design"></a></div>
+      <address class="en">
+      6-6 Asahigaoka, Hino-shi, Tokyo, Japan 191-0065<br>
+      Tel +81-42-585-8606　<a href="access.html">Access</a>
+      </address>
+    </div>
+    <p>Copyright &copy; TOKYO METROPOLITAN UNIVERSITY. All rights reserved.</p>
+  </footer>
+  <a href="#header" id="page-top"><span class="arrow"></span></a> </div>
+<div class="sb-slidebar sb-left sb-style-overlay">
+  <ul id="sp_menu">
+    <li><a href="../staff_ono.html"><img src="image/lang.png" alt="JP/EN"></a></li>
+    <li class="nav0"><a href="index.html">Home</a></li>
+    <li class="nav1"><a href="whats.html">What's CS?</a></li>
+    <li class="nav2"><a href="faculties.html">Faculties</a></li>
+    <li class="nav3"><a href="courses.html">Courses</a></li>
+    <li class="nav4"><a href="admissions.html">Admissions</a></li>
+    <li class="nav6"><a href="faq.html">FAQ</a></li>
+    <li class="nav7"><a href="access.html">Access</a></li>
+  </ul>
+</div>
+<script src="js/slidebars.js"></script> 
+<script>
+(function($) {
+  $(document).ready(function() {
+    $.slidebars({
+      disableOver: 480,
+      hideControlClasses: true,
+      scrollLock: true,
+      siteClose: true,
+    });
+  });
+}) (jQuery);
+</script>
+</body>
+</html>

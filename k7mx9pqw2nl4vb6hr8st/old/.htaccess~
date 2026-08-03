@@ -1,0 +1,10 @@
+AuthUserFile /home/app002/applicats.co.jp/public_html/test/01/tokyo_met_u/shiota/old/.htpasswd
+AuthGroupFile /dev/null
+AuthName MembersOnly
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
+
+ErrorDocument 404 /old/index.html

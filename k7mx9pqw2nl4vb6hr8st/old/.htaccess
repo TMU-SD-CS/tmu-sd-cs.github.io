@@ -1,0 +1,10 @@
+AuthUserFile .htpasswd
+AuthGroupFile /dev/null
+AuthName MembersOnly
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
+
+ErrorDocument 404 /old/index.html
